@@ -1,0 +1,40 @@
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.touch-area {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.area {
+  margin-left: 20px;
+  padding: 20px 0 20px 0;
+}
+.area.a {
+  background-color: rgb(6, 250, 250);
+}
+.area.b {
+  background-color: rgb(141, 45, 231);
+}
+.area.c {
+  background-color: rgb(238, 130, 238);
+}
+
+.target-color {
+  display: block;
+  width: 10px;
+  height: 10px;
+}
+
+.events-list {
+  overflow: auto;
+  flex: 1;
+}
+
+.event {
+  
+}
