@@ -8,11 +8,15 @@
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
+  -webkit-touch-callout: none;
+  user-select: none;
 }
 
 .area {
   margin-left: 20px;
   padding: 20px 0 20px 0;
+  -webkit-touch-callout: none;
+  user-select: none;
 }
 .area.a {
   background-color: rgb(6, 250, 250);
